@@ -1,0 +1,18 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: #4400aa;
+  border: none;
+  padding: 10px 50px ;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #dd0044;
+}
