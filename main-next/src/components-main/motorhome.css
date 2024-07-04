@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    color: #000000;
+}
+
+.motorhome {
+    width: 100%;
+    height: 80vh;
+    max-height: 700px;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 100px; */
+}
+
+.motorhome-content {
+    width: 90%;
+    max-width: 1400px;
+    justify-content: space-between;
+    background: url('/rvtoyota.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.rv-black {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #00000066, #00000000 50%, #000000ee);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rv-con-head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    z-index: 2;
+}
+
+.rv-con-head h1 {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+
+.rv-con-head-group {
+    display: flex;
+    justify-content: center;
+}
+
+.rv-con-head-group h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    color: #ffffff88;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.rv-con-head-group h3:hover {
+    color: #ffffff;
+}
+
+.rv-con-foot {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 45px;
+    z-index: 2;
+}
+.rv-con-foot h2 {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0 10px;
+    color: #ffffff;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    color: #000000;
+}
+
+.lids {
+    width: 100%;
+    height: 80vh;
+    max-height: 700px;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 100px; */
+}
+
+.lids-content {
+    width: 90%;
+    max-width: 1400px;
+    justify-content: space-between;
+    background: url('/lids.jpg');
+    background-size: cover;
+    background-position: left center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.lids-black {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #00000044, #00000000, #000000aa);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.lids-con-head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    z-index: 2;
+    background: linear-gradient(to bottom, #000000aa, #00000022);
+    backdrop-filter: blur(2px);
+}
+
+.lids-con-head h1 {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: #ffffffdd;
+}
+
+.lids-con-head-group {
+    display: flex;
+    justify-content: center;
+}
+
+.lids-con-head-group h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    color: #ffffff88;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.lids-con-head-group h3:hover {
+    color: #ffffffaa;
+}
+
+.lids-con-foot {
+    width: 100%;
+    display: flex;
+    padding: 35px 45px;
+    z-index: 2;
+}
+.lids-con-foot a {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px 15px;
+    border: #ffffff solid 1px;
+    border-radius: 50px;
+    margin: 0 10px 0 0;
+    background: #00000088;
+    transition: all 0.2s;
+}
+.lids-con-foot a:hover {
+    color: #000000;
+    background: #ffffff;
+}
